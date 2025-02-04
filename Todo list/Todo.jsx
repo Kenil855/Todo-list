@@ -30,20 +30,7 @@ setTask((prevTask)=>[...prevTask,inputValue]);//previous elment array create to 
 setInputValue("")//add btn next clear our input filde
     };
 
-/*todo date and time
-const getDateTime=()=>{
-    const now =new Date();
-const formattedDate=now.toDateString();
-const formattedTime=now.toLocaleTimeString();
-setDateTime(`${formattedDate}`-`${formattedTime}`)
-}
 
-  const setInterval(()=>{
-    getDateTime();
-},1000)
-
-
-*/
  const heandelDeleteTodo = (value) => {
     console.log(value);
     const updatedTask = task.filter((curTask) => curTask !== value);
